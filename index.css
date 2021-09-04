@@ -131,7 +131,6 @@ main .con-1 h2{
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 .sec a{
   margin-bottom: 50px;
@@ -143,5 +142,24 @@ main .con-1 h2{
   transition: 0.5s;
 }
 .sec a img{
+  border-radius: 18px;
+}
+.sec-2{
+  display:flex;
+  background-color: rgb(224, 93, 93);
+  justify-content:space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sec-2 a{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background: none;
+}
+.sec-2 a img:hover{
+  box-shadow: 3px 3px 10px 0 white;
+  transition: 0.5s;
+}
+.sec-2 a img{
   border-radius: 18px;
 }
